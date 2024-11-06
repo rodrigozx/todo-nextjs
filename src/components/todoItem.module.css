@@ -1,0 +1,23 @@
+.TodoItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.TodoItemText {
+  padding-right: 1rem;
+}
+
+.TodoItemTextCompleted {
+  padding-right: 1rem;
+  text-decoration: line-through;
+}
+
+.TodoItemButtons > button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+}

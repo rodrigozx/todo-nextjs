@@ -1,0 +1,25 @@
+.TodoForm {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem 0rem;
+  font-size: 2rem;
+}
+
+.TodoForm > input {
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+.TodoForm > button {
+  font-size: 2rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  background-color: green;
+  color: white;
+  width: 2.5rem;
+  justify-content: center;
+}
+
+.TodoForm > button:hover {
+  background-color: darkgreen;
+}
